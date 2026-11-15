@@ -53,6 +53,6 @@ CS student @ University of Camerino | Passionate about **Software Development**,
 ## 📊 GitHub Stats
 
 <div align="left">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AlessioPiana54&theme=default" alt="Top Languages by Repo" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AlessioPiana54&theme=default" alt="Top Languages by Commit" />
+  <img src="metrics.languages.svg" alt="Top Languages by Repo" />
+  <img src="metrics.languages-commits.svg" alt="Top Languages by Commit" />
 </div>
