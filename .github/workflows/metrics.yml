@@ -1,0 +1,42 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # ogni giorno alle 03:00 UTC
+  workflow_dispatch: # avvio manuale dalla tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      # Linguaggi per dimensione del codice nei repo (fork inclusi)
+      - name: Top languages (by repo)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          repositories_forks: yes
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          config_timezone: Europe/Rome
+
+      # Linguaggi calcolati solo sui TUOI commit (fork inclusi)
+      - name: Top languages (by commit)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages-commits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          repositories_forks: yes
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          config_timezone: Europe/Rome
