@@ -52,7 +52,14 @@ CS student @ University of Camerino | Passionate about **Software Development**,
 
 ## 📊 GitHub Stats
 
-<div align="left">
-  <img src="metrics.languages.svg" alt="Top Languages by Repo" />
-  <img src="metrics.languages-commits.svg" alt="Top Languages by Commit" />
-</div>
+### 📁 Top Languages by Repository
+
+Share of each language across the code in all my repositories, including forks.
+
+<img src="metrics.languages.svg" alt="Top Languages by Repo" />
+
+### ✍️ Top Languages by Commit
+
+Languages counted only on the lines I wrote myself, including my commits in forks.
+
+<img src="metrics.languages-commits.svg" alt="Top Languages by Commit" />
