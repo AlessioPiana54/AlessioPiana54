@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # serve al keepalive
 
 jobs:
   languages:
@@ -40,3 +41,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           config_timezone: Europe/Rome
+
+      # Evita che GitHub sospenda il workflow dopo 60 giorni di inattività (nessun commit)
+      - name: Keepalive
+        uses: gautamkrishnar/keepalive-workflow@v2
