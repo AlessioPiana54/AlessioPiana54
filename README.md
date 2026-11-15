@@ -3,6 +3,12 @@
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=500&lines=Software+Developer;Web+Developer;Game+Developer;Always+learning+something+new" alt="Typing SVG" />
+
+  <br /><br />
+
+  <a href="https://alessiopiana54.github.io/Portfolio/" target="_blank">
+    <img src="portfolio-button.svg" width="420" alt="Visit my Portfolio" />
+  </a>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:7F00FF,100:2E5BFF" width="100%" alt="" />
