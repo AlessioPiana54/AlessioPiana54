@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  actions: write # serve al keepalive
 
 jobs:
   snake:
@@ -28,7 +27,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Evita che GitHub sospenda il workflow dopo 60 giorni di inattività (nessun commit)
-      - name: Keepalive
-        uses: gautamkrishnar/keepalive-workflow@v2
