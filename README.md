@@ -13,7 +13,7 @@
   <br /><br />
 
   <img src="https://hits.sh/github.com/AlessioPiana54.svg?style=for-the-badge&label=Profile%20Views&color=2E5BFF&labelColor=7F00FF&logo=github&logoColor=white" alt="Profile views" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Falessio.goatcounter.com%2Fcounter%2FTOTAL.json&query=%24.count&style=for-the-badge&label=Portfolio%20Visits&color=2E5BFF&labelColor=7F00FF&logo=googlechrome&logoColor=white&cacheSeconds=300" alt="Portfolio visits" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Falessio.goatcounter.com%2Fcounter%2FTOTAL.json&query=%24.count&style=for-the-badge&label=Portfolio%20Visits&color=2E5BFF&labelColor=7F00FF&logo=googlechrome&logoColor=white&cacheSeconds=300&v=2" alt="Portfolio visits" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:7F00FF,100:2E5BFF" width="100%" alt="" />
