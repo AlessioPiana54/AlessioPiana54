@@ -84,17 +84,22 @@ CS student @ University of Camerino | Passionate about **Software Development**,
 
 ## 📊 GitHub Stats
 
-### 📁 Top Languages by Repository
-
-Share of each language across the code in all my repositories, including forks.
-
-<img src="metrics.languages.svg" alt="Top Languages by Repo" />
-
-### ✍️ Top Languages by Commit
-
-Languages counted only on the lines I wrote myself, including my commits in forks.
-
-<img src="metrics.languages-commits.svg" alt="Top Languages by Commit" />
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>📁 By Repository</h3>
+      <sub><i>All code in my repos · forks included</i></sub>
+      <br /><br />
+      <img src="metrics.languages.svg" width="100%" alt="Top languages by repository" />
+    </td>
+    <td align="center" width="50%">
+      <h3>✍️ By Commit</h3>
+      <sub><i>Only the lines I wrote · forks included</i></sub>
+      <br /><br />
+      <img src="metrics.languages-commits.svg" width="100%" alt="Top languages by commit" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
